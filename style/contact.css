@@ -1,0 +1,27 @@
+ /*Contact section styling  */
+
+#contact {
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
+  }
+  
+  #contactbox {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
+	justify-content: space-evenly;
+	align-items: flex-start;
+	max-width: 800px;
+	height: auto;
+	/* background-color: red; */
+  }
+  
+  .contactlistbox {
+	width: 700px;
+	height: 80px;
+	margin-top: 5px;
+	background-color: white;
+	border-radius: 20px;
+  }
+  
