@@ -10,11 +10,12 @@
   .rotatebg {
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 20px;
-    width: 280px;
+    top: 100px;
+    width: 390px;
     max-width: 100%;
-    height: 280px;
+    height: 390px;
   }
+
 
   .intro {
     max-width: 320px;
@@ -41,7 +42,7 @@
   }
 
   .navbar {
-    display: none;
+    visibility: hidden;
   }
   .navbar a {
     font-size: 1rem;
@@ -56,8 +57,8 @@
   .rotatebg {
     width: 250px;
     max-width: 100%;
-    height: 250px;
-    top: 35px;
+    height: 400px;
+    top: 120px;
   }
 }
 
@@ -67,13 +68,14 @@
     max-width: 100%;
     height: 260px;
     top: 30px;
+    display: none;
   }
 }
 
 @media (max-width: 300px) {
   .image {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 50px;
   }
 
   .rotatebg {
@@ -83,6 +85,7 @@
     height: 170px;
     top: 15px;
     background-color: rgb(255, 255, 255);
+    display: none;
   }
 
   .intro h1 {
