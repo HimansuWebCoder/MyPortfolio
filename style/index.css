@@ -100,10 +100,11 @@ html {
   width: 100%;
   height: auto;
   padding: 0;
-  border: 4px solid rgba(175, 161, 161, 0.685);
+  border: 4px solid rgb(255, 255, 255);
   border-radius: 20px;
   margin: auto;
   margin-top: 20px;
+  box-shadow: 3px 5px 40px black;
 }
 
 .section {
@@ -131,6 +132,8 @@ html {
 
 .description p {
   color: white;
+  font-weight: bold;
+  font-style: italic;
   /* color: black; */
   font-size: 1.5rem;
   margin: 0;
