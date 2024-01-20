@@ -15,39 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Profile Image Rotation animation style adding*/
-
-.rotatebg {
-  position: absolute;
-  top: 120px;
-  z-index: -1;
-  width: 380px;
-  height: 380px;
-  background-color: rgb(255, 255, 255);
-  /* background-color:blue; */
-  box-shadow: 5px 5px 50px rgb(255, 255, 255);
-  border: 5px solid red;
-  outline: 4px solid yellow;
-  border-radius: 20%;
-  border-bottom-right-radius: 30%;
-  border-top-left-radius: 30%;
-  animation-name: logorotate;
-  animation-duration: 0.4s;
-  animation-iteration-count: 15;
-  animation-direction: alternate;
-}
-
-@keyframes logorotate {
-  from {
-    /* transform: rotate(0deg); */
-    transform: scale(0.8);
-  }
-
-  to {
-    /* transform: rotate(360deg); */
-    transform: scale(1.1);
-  }
-}
 
 /* intro-text styling  */
 
